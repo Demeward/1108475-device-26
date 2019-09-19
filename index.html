@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <title>HTML Academy: Девайс</title>
 </head>
 
@@ -16,7 +16,8 @@
       <ul class="main-nav__list  user-navigation">
         <li class="user-navigation__item">
           <form action="https://echo.htmlacademy.ru" method="POST" class="user-navigation__form">
-            <input type="search" class="user-navigation__search-bar" placeholder="Поиск по сайту"><button type="submit" class="user-navigation__search-button">Найти</button>
+            <label for="search-bar" class="visually-hidden">Поиск по сайту</label>
+            <input type="search" class="user-navigation__search-bar" placeholder="Поиск по сайту" id="search-bar"><button type="submit" class="user-navigation__search-button">Найти</button>
           </form>
         </li>
         <li class="user-navigation__item"><a href="#" class="user-navigation__link user-navigation__link--1">Войти</a></li>
@@ -290,8 +291,8 @@
     <button type="button" class="map__close close-btn"></button>
   </div>
 
-<script src="js/sliders-script.js"></script>
-<script src="js/modal-script.js"></script>
+<script src="js/sliders-script.min.js"></script>
+<script src="js/modal-script.min.js"></script>
 
 </body>
 
