@@ -219,7 +219,7 @@ a {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 300;
   font-size: 15px;
-  line-height: 3px;
+  line-height: 3;
   color: rgba(0, 0, 0, 0.3);
 }
 
