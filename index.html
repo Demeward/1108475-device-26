@@ -268,31 +268,32 @@
   <section class="write-us">
     <h2 class="visually-hidden">Напишите нам</h2>
     <form action="https://echo.htmlacademy.ru" method="GET" class="write-us__form">
-      <div class="write-us__wrapper">
-        <fieldset class="write-us__item">
-          <legend class="write-us__title">Ваше имя:</legend>
-          <input type="text" class="write-us__name" name="name" placeholder="Имя Фамилия">
-        </fieldset>
-        <fieldset class="write-us__item">
-          <legend class="write-us__title">Ваш e-mail:</legend>
-          <input type="email" class="write-us__email" name="e-mail" placeholder="email@example.com">
-        </fieldset>
-        <fieldset class="write-us__item">
-          <legend class="write-us__title">Текст письма:</legend>
-          <textarea rows="7" class="write-us__letter" name="letter" placeholder="В свободной форме"></textarea>
-        </fieldset>
+      <div class="write-us__container">
+        <div class="write-us__wrapper">
+          <label for="form-name" class="write-us__title">Ваше имя:</label>
+          <input type="text" class="write-us__name" name="name" id="form-name" placeholder="Имя Фамилия">
+        </div>
+        <div class="write-us__wrapper">
+          <label for="form-email" class="write-us__title">Ваш e-mail:</label>
+          <input type="email" class="write-us__email" name="e-mail" id="form-email" placeholder="email@example.com">
+        </div>
+        <div class="write-us__wrapper">
+          <label for="form-letter" class="write-us__title">Текст письма:</label>
+          <textarea  class="write-us__letter" name="letter" id="form-letter" placeholder="В свободной форме"></textarea>
+        </div>
       </div>
       <button type="submit" class="write-us__button btn">Отправить</button>
     </form>
     <button type="button" class="write-us__close close-btn"></button>
   </section>
   <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1568502945054!5m2!1sru!2sru" width="960" height="559" style="border:0;" allowfullscreen=""></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1568502945054!5m2!1sru!2sru"
+      width="960" height="559" style="border:0;" allowfullscreen=""></iframe>
     <button type="button" class="map__close close-btn"></button>
   </div>
 
-<script src="js/sliders-script.min.js"></script>
-<script src="js/modal-script.min.js"></script>
+  <script src="js/scripts.min.js"></script>
 
 </body>
 
